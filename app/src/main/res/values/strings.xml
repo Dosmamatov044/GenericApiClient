@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GenericApiClient</string>
+    <string name="btn_random">Random</string>
+</resources>

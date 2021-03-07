@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:id="@+id/cardView"
+    >
+
+    <TextView
+        android:id="@+id/typeText"
+        android:textColor="@color/pinkFirst"
+        android:layout_marginBottom="200dp"
+        android:layout_gravity="center"
+        android:inAnimation="@android:anim/slide_in_left"
+       android:outAnimation="@android:anim/slide_out_right"
+        style="@style/big_Text" />
+    <TextView
+        android:id="@+id/setupText"
+        android:textColor="@color/pinkThird"
+     android:layout_marginBottom="100dp"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+           android:layout_gravity="center"
+        style="@style/normal_text" />
+    <TextView
+       style="@style/small_text"
+        android:id="@+id/punchlineText"
+        android:textColor="@color/pinkSecond"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        />
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/randomButton"
+    android:text="@string/btn_random"
+    style="@style/button_random" />
+</androidx.cardview.widget.CardView>
